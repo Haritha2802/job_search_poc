@@ -1,16 +1,16 @@
-### Job Search Automation using Jooble API
+# Job Search Automation using Jooble API
 
-### Overview
+## Overview
 
 This project automates job searching using the Jooble API. It allows users to fetch job listings posted within the last 24 hours based on specified keywords and locations. The results are structured and saved in a CSV file.
 
-# Features Explained
+### Features Explained
 
-# Automated Job Searching: The script automates fetching job postings from Jooble instead of manually searching on platforms like LinkedIn.
+### Automated Job Searching: The script automates fetching job postings from Jooble instead of manually searching on platforms like LinkedIn.
 
 Filtering Mechanism: It filters jobs based on title and location to provide relevant results.
 
-# Output Formats:
+### Output Formats:
 
 Displays results in the console for quick viewing.
 
@@ -28,7 +28,7 @@ Required Python Library:
 
 requests (for API calls)
 
-# Installation and Setup
+### Installation and Setup
 
 Step 1: Clone the Repository
 
@@ -41,7 +41,7 @@ Step 3: Configure API Key
 Ensure the correct API key is placed in the script (search_jobs.py).
 Running the Script
 
-# Default Execution
+### Default Execution
 
 To fetch Data Engineer jobs in New York:
 python search_jobs.py
@@ -60,7 +60,7 @@ Filtering Options: Jooble supports filtering jobs based on date posted, but adva
 
 Response Structure: The API returns job title, company name, location, posted date, and job URL.
 
-# Code Implementation
+### Code Implementation
 
 import requests
 import csv
@@ -90,6 +90,6 @@ with open('jooble_results.csv', 'w', newline='') as file:
 
 Sample Output (jooble_results.csv)
 
-# After execution, the script generates a CSV file with the following format:
+### After execution, the script generates a CSV file with the following format:
 
 ![alt text](image.png)
